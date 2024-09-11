@@ -1,0 +1,39 @@
+﻿using TPCalculatrice;
+using TPCalculatrice.Operations;
+
+Console.WriteLine("Bienvenue sur ma calculatrice");
+
+Console.WriteLine("Saisissez le premier nombre");
+var o1 = int.Parse(Console.ReadLine());
+
+Console.WriteLine("Saisissez le deuxième nombre");
+var o2 = int.Parse(Console.ReadLine());
+
+Console.WriteLine("Saisissez l'opérateur");
+string operateur = Console.ReadLine();
+
+Operation operation;
+
+if(operateur == "+"){
+    operation = new Addition(o1, o2);
+}
+else if(operateur == "-"){
+    operation = new Soustraction(o1, o2);
+}
+else if (operateur == "*"){
+        operation = new Multiplication(o1, o2);
+}
+else if(operateur == "/"){
+        operation = new Division(o1, o2);
+}
+else if(operateur == "%"){
+        operation = new Modulo(o1, o2);
+}
+else{
+    Console.WriteLine("Opérateur non reconnu");
+    return;
+}
+
+Calculatrice calc = new(operation);
+
+Console.WriteLine("Le résultat de votre opération est " + calc.Resultat);
