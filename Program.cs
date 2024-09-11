@@ -35,5 +35,6 @@ else{
 }
 
 Calculatrice calc = new(operation);
+calc.Executer();
 
 Console.WriteLine("Le résultat de votre opération est " + calc.Resultat);

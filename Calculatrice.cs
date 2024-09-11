@@ -15,30 +15,6 @@ public class Calculatrice
 
     public void Executer()
     {
-        if(Operation is Addition addition)
-        {
-            addition.Executer();
-        }
-        else if(Operation is Soustraction soustraction)
-        {
-            soustraction.Executer();
-        }
-        else if(Operation is Multiplication multiplication)
-        {
-            multiplication.Executer();
-        }
-        else if(Operation is Division division)
-        {
-            division.Executer();
-        }
-        else if(Operation is Modulo modulo)
-        {
-            modulo.Executer();
-        }
-        else
-        {
-            Console.WriteLine("Opération non reconnue");
-        }
+        Operation.Executer();
     }
-
 }

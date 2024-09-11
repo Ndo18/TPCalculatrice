@@ -12,3 +12,4 @@ c:\Users\samue\Desktop\CoursCSharp\Module1\TPCalculatrice\obj\Debug\net8.0\refin
 c:\Users\samue\Desktop\CoursCSharp\Module1\TPCalculatrice\obj\Debug\net8.0\TPCalculatrice.pdb
 c:\Users\samue\Desktop\CoursCSharp\Module1\TPCalculatrice\obj\Debug\net8.0\TPCalculatrice.genruntimeconfig.cache
 c:\Users\samue\Desktop\CoursCSharp\Module1\TPCalculatrice\obj\Debug\net8.0\ref\TPCalculatrice.dll
+c:\Users\samue\Desktop\CoursCSharp\Module1\TPCalculatrice\obj\Debug\net8.0\TPCalculatrice.sourcelink.json
