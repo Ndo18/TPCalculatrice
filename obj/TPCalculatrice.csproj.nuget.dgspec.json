@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\samue\\Desktop\\CoursCSharp\\Module1\\TPCalculatrice\\TPCalculatrice.csproj": {}
+    "C:\\Users\\samue\\Desktop\\CoursCSharp\\Module1\\TPCalculatrice\\TPCalculatrice.csproj": {}
   },
   "projects": {
-    "c:\\Users\\samue\\Desktop\\CoursCSharp\\Module1\\TPCalculatrice\\TPCalculatrice.csproj": {
+    "C:\\Users\\samue\\Desktop\\CoursCSharp\\Module1\\TPCalculatrice\\TPCalculatrice.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\samue\\Desktop\\CoursCSharp\\Module1\\TPCalculatrice\\TPCalculatrice.csproj",
+        "projectUniqueName": "C:\\Users\\samue\\Desktop\\CoursCSharp\\Module1\\TPCalculatrice\\TPCalculatrice.csproj",
         "projectName": "TPCalculatrice",
-        "projectPath": "c:\\Users\\samue\\Desktop\\CoursCSharp\\Module1\\TPCalculatrice\\TPCalculatrice.csproj",
+        "projectPath": "C:\\Users\\samue\\Desktop\\CoursCSharp\\Module1\\TPCalculatrice\\TPCalculatrice.csproj",
         "packagesPath": "C:\\Users\\samue\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\samue\\Desktop\\CoursCSharp\\Module1\\TPCalculatrice\\obj\\",
+        "outputPath": "C:\\Users\\samue\\Desktop\\CoursCSharp\\Module1\\TPCalculatrice\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\samue\\AppData\\Roaming\\NuGet\\NuGet.Config"
