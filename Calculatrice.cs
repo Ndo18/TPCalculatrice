@@ -8,8 +8,10 @@ public class Calculatrice
     public IOperation Operation { get; }
     
     public int Resultat => Operation.Resultat;
+    
     public Calculatrice(IOperation operation)
     {
+        Historique.Operations.Add(operation);
         Operation = operation;
     }
 

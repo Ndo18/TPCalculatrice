@@ -3,14 +3,21 @@ using TPCalculatrice.Operations;
 
 Console.WriteLine("Bienvenue sur ma calculatrice");
 
+while (true)
+{
+    Console.WriteLine("Saisissez l'opérateur ou 'q' pour quitter");
+    string operateur = Console.ReadLine();
+
+    if (operateur == "q")
+    {
+        break;
+    }
+
 Console.WriteLine("Saisissez le premier nombre");
 var o1 = int.Parse(Console.ReadLine());
 
 Console.WriteLine("Saisissez le deuxième nombre");
 var o2 = int.Parse(Console.ReadLine());
-
-Console.WriteLine("Saisissez l'opérateur");
-string operateur = Console.ReadLine();
 
 IOperation operation;
 
@@ -38,3 +45,13 @@ Calculatrice calc = new(operation);
 calc.Executer();
 
 Console.WriteLine("Le résultat de votre opération est " + calc.Resultat);
+
+}
+
+Console.WriteLine("_________________");
+Console.WriteLine("Historique :");
+
+foreach (var ope in Historique.Operations)
+{
+    Console.WriteLine(ope.ToString());
+}

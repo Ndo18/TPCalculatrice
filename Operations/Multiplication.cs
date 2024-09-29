@@ -12,4 +12,8 @@ public class Multiplication : Operation
     {
         Resultat = OperandeGauche * OperandeDroite;
     }
+     public override string ToString()
+    {
+        return $"{OperandeGauche} * {OperandeDroite} = {Resultat}";
+    }
 }
