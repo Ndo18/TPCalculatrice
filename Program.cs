@@ -12,7 +12,7 @@ var o2 = int.Parse(Console.ReadLine());
 Console.WriteLine("Saisissez l'opérateur");
 string operateur = Console.ReadLine();
 
-Operation operation;
+IOperation operation;
 
 if(operateur == "+"){
     operation = new Addition(o1, o2);

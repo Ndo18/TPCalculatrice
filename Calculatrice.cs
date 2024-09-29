@@ -5,10 +5,10 @@ namespace TPCalculatrice;
 public class Calculatrice
 {
 
-    public Operation Operation { get; }
+    public IOperation Operation { get; }
     
     public int Resultat => Operation.Resultat;
-    public Calculatrice(Operation operation)
+    public Calculatrice(IOperation operation)
     {
         Operation = operation;
     }
